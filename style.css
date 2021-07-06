@@ -1,0 +1,120 @@
+/*-----------------------------------------------------------------------------------
+    Template Name: Food Junction!
+    Template URI: http://
+    Description: This is html5 template
+    Author: Md Ohidur Rahman
+    Author Email: ohidur.ru.2019@gmail.com
+    Author URI: https://www.facebook.com/ohidur.AlexMarcer/
+    Version: 1.0
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+1. Theme Default CSS (body, link color, section etc)
+
+---------------------------------------------*/
+/*----------------------------------------*/
+/*  1.  Theme default CSS Start
+/*----------------------------------------*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+section {
+    margin-bottom: 30px;
+}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 45px;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+.header-area {
+    padding: 6%;
+}
+.img-txt {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+.txt {
+    width: 50%;
+}
+.txt span {
+    color: orange;
+}
+.txt img {
+    width: 450px;
+    height: auto;
+    padding-left: 20%;
+}
+.txt p {
+    margin-bottom: 75px;
+}
+.hire-btn {
+    padding: 10px 40px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #0286f7, #13bafc);
+    color:white;
+    font-weight: 700;
+    border-radius: 25px;
+    text-decoration: none;
+}
+.about-img {
+    width: 50%;
+}
+.about-img img {
+    width: 500px;
+    height: auto;
+    margin-top: 64px;
+}
+.about-me {
+    display: flex;
+    padding: 6%;
+    width: 88%;
+    background-image: url(images/about-me-bg.jpg);
+    background-repeat: no-repeat;
+}
+.about-txt {
+    width: 50%;
+    padding-left: 60px;
+}
+.about-txt p {
+    margin-bottom: 105px;
+}
+.recipe {
+    display: flex;
+    padding: 0 6% 0 6%;
+}
+.my-recipe {
+    text-align: center;
+}
+.footer {
+    background-color: #202020;
+    height: 255px;
+    text-align: center;
+    padding-top: 15px;
+}
+.footer h2 {
+    text-transform: uppercase;
+    color: slategrey;
+}
+.footer h2 span {
+    color:orange;
+}
+.footer p {
+    color: #ffffff;
+    margin-bottom: 80px;
+    margin-top: -30px;
+}
+.footer p a {
+    text-decoration: none;
+    color:orange;
+}
