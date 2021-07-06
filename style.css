@@ -31,6 +31,9 @@ h1 {
 h2 {
     font-size: 45px;
 }
+h3 {
+    font-size: 30px;
+}
 p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -95,15 +98,41 @@ p {
 .recipe {
     display: flex;
     padding: 0 6% 0 6%;
+    margin-top: -45px;
 }
 .my-recipe {
     text-align: center;
+}
+.my-recipe p {
+    margin-bottom: 30px;
 }
 .footer {
     background-color: #202020;
     height: 255px;
     text-align: center;
     padding-top: 15px;
+}
+.recipe-card {
+    display: flex;
+    padding-left: 4%;
+}
+.card {
+    box-shadow: 10px 10px 35px gray;
+    border-radius: 20px;
+    margin-right: 5%;
+    width: 30%;
+}
+.card div {
+    text-align: left;
+    padding: 0 20px 0 25px;
+}
+.card img {
+    width: 90%;
+    height: auto;
+    margin-top: 5%;
+}
+.footer {
+    margin-bottom: 0px;
 }
 .footer h2 {
     text-transform: uppercase;
